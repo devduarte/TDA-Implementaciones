@@ -11,16 +11,16 @@ int ProbarCola()
     ccrearD(&p1);
     int i=0;
     tdato dato;
-    while(!cllenaD(&p1)&&(i<12))
+    while(!cllenaD(&p1)&&(i<12))/* se usa i como indice para encolar algunos elementos */
     {
         cponerD(&p1, i);
         printf("Elemento %d\n", i);
         i++;
     }
-        while(!cvaciaD(&p1)&&(i>-10))
+        while(!cvaciaD(&p1))
     {
         csacarD(&p1, &dato);
-        printf("Sacando Elemento de cola: %d\n orden: %d\n", dato, i);
+        printf("Sacando Elemento de cola: %d\n", dato);
         i--;
     }
 
@@ -45,17 +45,17 @@ int ProbarPila()
     pcrearD(&p1);
     int i=1;
     tdato w;
-    while((i<11)&&(!pllenaD(&p1)))
+    while((i<11)&&(!pllenaD(&p1))) /* se usa i como indice para colocar algunos elementos */
     {
       pponerD(&p1, i);
-      printf("Pusheando Elemento: %i\n ", i);
+      printf("Apilando Elemento: %i\n ", i);
       i++;
     }
 
-    while((i>-20)&&(!pvaciaD(&p1)))
+    while(!pvaciaD(&p1))
     {
       psacarD(&p1, &w);
-      printf("Popeando Elemento: %i\n ", w);
+      printf("Desapilando Elemento: %i\n ", w);
       i--;
     }
 
@@ -65,7 +65,9 @@ int ProbarPila()
     }
 
     if(!pllenaD(&p1))
+    {
       printf("La pila no esta llena\n");
+    }
 
     return 0;
 }
