@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Diego/Desktop/Diego/facu/algo1/TDA-Implementaciones/TDA/colaDinamica.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/Users/Diego/Desktop/Diego/facu/algo1/TDA-Implementaciones/TDA/main.c
+stdio.h
+-
+stdlib.h
+-
+colaDinamica.h
+C:/Users/Diego/Desktop/Diego/facu/algo1/TDA-Implementaciones/TDA/colaDinamica.h
+

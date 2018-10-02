@@ -1,0 +1,3 @@
+C:/Users/Diego/Desktop/Diego/facu/algo1/TDA-Implementaciones/TDA/cmake-build-debug/CMakeFiles/TDA.dir
+C:/Users/Diego/Desktop/Diego/facu/algo1/TDA-Implementaciones/TDA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Diego/Desktop/Diego/facu/algo1/TDA-Implementaciones/TDA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
