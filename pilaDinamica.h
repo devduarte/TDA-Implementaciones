@@ -8,11 +8,11 @@ typedef struct nodo
 {
   tdato info;
   struct nodo *sig;
-} Nodo;
+} NodoPila;
 
 typedef struct tpilad
 {
-  Nodo *cima;
+  NodoPila *cima;
 } TPilaD;
 
 // Definicion de procedimientos
@@ -21,7 +21,7 @@ int pllenaD(TPilaD *p);
 int pvaciaD(TPilaD *p);
 void pponerD(TPilaD *p, tdato x);
 void psacarD(TPilaD *p, tdato *x);
-void crearNodo(Nodo * nue,tdato x);
+void crearNodoPila(NodoPila** nue, tdato x);
 
 //Implementaciones desarrolladas
 
@@ -32,7 +32,7 @@ void pcrearD(TPilaD *p)
 
 int pllenaD(TPilaD *p)
 {
-  Nodo* aux = (Nodo*) malloc(sizeof(Nodo));
+  NodoPila* aux = (NodoPila*) malloc(sizeof(NodoPila));
   int pllena = aux == NULL;
   free(aux);
   return(pllena);
@@ -45,25 +45,25 @@ int pvaciaD(TPilaD *p)
 
 void pponerD(TPilaD *p, tdato x)
 {
-  Nodo *n;
-  crearNodo(n, x);
+  NodoPila *n = NULL;
+  crearNodoPila(&n, x);
   n->sig = p->cima;
   p->cima=n;
 }
 
 void psacarD(TPilaD *p, tdato *x)
 {
-  Nodo* aux = p->cima;
+  NodoPila* aux = p->cima;
   *x = p->cima->info;
   p->cima= p->cima->sig;
   free(aux);
 }
 
-void crearNodo(Nodo* nue,tdato x)
+void crearNodoPila(NodoPila** nue,tdato x)
 {
-  nue = (Nodo*) malloc(sizeof(Nodo));
-  nue->sig = NULL;
-  nue->info = x;
+  (*nue) = (NodoPila*) malloc(sizeof(NodoPila));
+  (*nue)->sig = NULL;
+  (*nue)->info = x;
 }
 
 #endif

@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-//#include "pilaDinamica.h"
+#include "pilaDinamica.h"
 #include "colaDinamica.h"
 
 
-
-int main()
+int ProbarCola()
 {
     printf("Hello world!\n");
     tcolaD p1;
@@ -36,9 +35,10 @@ int main()
 }
 
 
-/*
 
-int main()
+
+
+int ProbarPila()
 {
     printf("Hola mundo!\n");
     TPilaD p1;
@@ -70,4 +70,11 @@ int main()
     return 0;
 }
 
-*/
+
+int main()
+{
+  ProbarCola();
+  ProbarPila();
+
+  return 0;
+}

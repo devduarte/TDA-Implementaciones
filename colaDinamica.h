@@ -4,19 +4,19 @@
 
 typedef int tdato;
 
-typedef struct nodo
+typedef struct nodoCola
 {
   tdato info;
-  struct nodo *sig;
-}Nodo;
+  struct nodoCola *sig;
+}NodoCola;
 
-typedef Nodo *tcolaD;
+typedef NodoCola *tcolaD;
 
 // Definicion de procedimientos
 void ccrearD(tcolaD *p);
 int cllenaD(tcolaD *p);
 int cvaciaD(tcolaD *p);
-void crearNodo(Nodo *nue,tdato x);
+void crearNodo(NodoCola **nue,tdato x);
 void cponerD(tcolaD *p, tdato x);
 void csacarD(tcolaD *p, tdato *x);
 
@@ -24,12 +24,12 @@ void csacarD(tcolaD *p, tdato *x);
 
 void ccrearD(tcolaD* p)
 {
-  p = NULL;
+  *p = NULL;
 }
 
 int cllenaD(tcolaD* p)
 {
-  Nodo* aux = (Nodo*) malloc(sizeof(Nodo));
+  NodoCola* aux = (NodoCola*) malloc(sizeof(NodoCola));
   int cllena = (aux == NULL);
   free(aux);
   return(cllena);
@@ -37,26 +37,25 @@ int cllenaD(tcolaD* p)
 
 int cvaciaD(tcolaD* p)
 {
-  return(p == NULL);
+  return *p == NULL;
 }
 
 void cponerD(tcolaD *p, tdato x)
 {
-  Nodo *n;
-  crearNodo(n, x);
-  if(p == NULL)
+  NodoCola *n = NULL;
+  crearNodo(&n, x);
+  if( *p == NULL)
   {
-    (*p) = n;
-    int a =2;
+    *p = n;
   }
   else
   {
-    Nodo* aux = (*p);
- /*   while(aux->sig != NULL)
+    NodoCola* aux = *p;
+    while(aux->sig != NULL)
     {
       aux = aux->sig;
     }
-      aux->sig = n;*/
+      aux->sig = n;
   }
 
 
@@ -64,17 +63,17 @@ void cponerD(tcolaD *p, tdato x)
 
 void csacarD(tcolaD *p, tdato *x)
 {
-  Nodo *aux = (*p);
+  NodoCola *aux = *p;
   (*x) = (*p)->info;
   (*p) = (*p)->sig;
   free(aux);
 }
 
-void crearNodo(Nodo* nue, tdato x)
+void crearNodo(NodoCola** nue,tdato x)
 {
-  nue = (Nodo*) malloc(sizeof(Nodo));
-  nue->sig = NULL;
-  nue->info = x;
+  (*nue) = (NodoCola*) malloc(sizeof(NodoCola));
+  (*nue)->sig = NULL;
+  (*nue)->info = x;
 }
 
 #endif
