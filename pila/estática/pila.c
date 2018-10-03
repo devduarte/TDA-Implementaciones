@@ -1,7 +1,6 @@
 #ifndef __PILAS_H_
 #include <stdio.h>
 #include "pila.h"
-//#include "tipos.h" incluiria los 7 proximos renglones
 
 // Crea una pila
 // Post: devuelve una nueva pila vacía
@@ -29,13 +28,11 @@ void p_poner(T_PILA *p, t_dato x) {
     p->elem[p->cima] = x;
 }
 
-// Saca el elemento cima de la pila. Si la pila tiene elementos, se quita la
-// cima de la pila, y se devuelve ese valor
+// Saca el elemento cima de la pila. Si la pila tiene elementos, se quita la cima de la pila, y se devuelve ese valor
 // Pre: la pila fue creada y tiene al menos un elemento
-// Post: si la pila no estaba vacía, se devuelve el valor de la cima anterior
-// y la pila contiene un elemento menos
-void p_sacar(T_PILA *p, t_dato x) {
-    x = p->elem[p->cima];
+// Post: si la pila no estaba vacía, se devuelve el valor de la cima anterior y la pila contiene un elemento menos
+void p_sacar(T_PILA *p, t_dato *x) {
+    *x = p->elem[p->cima];
     p->cima = p->cima - 1;
 }
 

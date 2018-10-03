@@ -15,46 +15,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9b1d7e7-577a-4e0e-babe-6ab7a837e36e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/includes_C.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/main.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ColaEstatica.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/Debug/TDA.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TDA.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/TDA.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/TDA.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pila.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estática/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estática/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estática/pila.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estática/pila.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pilaDinamica.h" beforeDir="false" afterPath="$PROJECT_DIR$/pila.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/TDA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/TDA.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/TDA.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cola/dinámica/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cola/dinámica/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cola/dinámica/cmake-build-debug/CMakeFiles/TDA.dir/cola.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../cola/dinámica/cmake-build-debug/CMakeFiles/TDA.dir/cola.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cola/dinámica/cmake-build-debug/TDA" beforeDir="false" afterPath="$PROJECT_DIR$/../../cola/dinámica/cmake-build-debug/TDA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cola/dinámica/cola.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../cola/dinámica/cola.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cola/dinámica/cola.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../cola/dinámica/cola.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cola/estática/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cola/estática/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cola/estática/cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cola/estática/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cola/estática/cmake-build-debug/CMakeFiles/TDA.dir/cola.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../cola/estática/cmake-build-debug/CMakeFiles/TDA.dir/cola.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cola/estática/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cola/estática/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cola/estática/cmake-build-debug/TDA" beforeDir="false" afterPath="$PROJECT_DIR$/../../cola/estática/cmake-build-debug/TDA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cola/estática/cola.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../cola/estática/cola.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../colaDinamica.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../listasimple.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../obj/Debug/Pila.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../obj/Debug/PilaDinamica.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../obj/Debug/PilaEstatica.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pila.c" beforeDir="false" afterPath="$PROJECT_DIR$/pila.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pila.h" beforeDir="false" afterPath="$PROJECT_DIR$/pila.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estática/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../estática/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estática/cmake-build-debug/CMakeFiles/TDA.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../estática/cmake-build-debug/CMakeFiles/TDA.dir/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estática/cmake-build-debug/CMakeFiles/TDA.dir/pila.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../estática/cmake-build-debug/CMakeFiles/TDA.dir/pila.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estática/cmake-build-debug/TDA" beforeDir="false" afterPath="$PROJECT_DIR$/../estática/cmake-build-debug/TDA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estática/pila.c" beforeDir="false" afterPath="$PROJECT_DIR$/../estática/pila.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estática/pila.h" beforeDir="false" afterPath="$PROJECT_DIR$/../estática/pila.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pilaEstatica.h" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,33 +96,44 @@
     <session id="1255532438">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="1" />
+          <entry key="c" value="2" />
           <entry key="h" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="2" />
+          <entry key="ObjectiveC" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
-      <usages-collector id="statistics.file.extensions.edit" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="8" />
+          <entry key="h" value="9" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.file.types.edit" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="17" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
+            <state relative-caret-position="972">
               <caret line="54" column="1" selection-start-line="19" selection-end-line="54" selection-end-column="1" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -106,8 +145,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pila.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="40" selection-start-line="40" selection-end-line="41" />
+            <state relative-caret-position="36">
+              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding>
+                <element signature="e#19#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pila.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-174">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding>
+                <element signature="e#19#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,6 +170,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pila.c" />
+        <option value="$PROJECT_DIR$/pila.h" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
@@ -130,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,6 +203,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,26 +248,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538591785205</updated>
-      <workItem from="1538591786284" duration="2203000" />
+      <workItem from="1538591786284" duration="2673000" />
+      <workItem from="1538596010110" duration="34000" />
+      <workItem from="1538596504295" duration="70000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2203000" />
+    <option name="totallyTimeSpent" value="2777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32900432" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
@@ -213,10 +270,16 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -225,7 +288,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
+        <state relative-caret-position="972">
           <caret line="54" column="1" selection-start-line="19" selection-end-line="54" selection-end-column="1" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -233,10 +296,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pila.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding>
+            <element signature="e#19#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pila.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="40" selection-start-line="40" selection-end-line="41" />
+        <state relative-caret-position="36">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding>
+            <element signature="e#19#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

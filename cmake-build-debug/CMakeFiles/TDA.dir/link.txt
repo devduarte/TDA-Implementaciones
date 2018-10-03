@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/TDA.dir/main.c.o  -o TDA 

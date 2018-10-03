@@ -35,11 +35,9 @@ void p_poner(T_PILA *p, t_dato x) {
     p->cima = n;
 }
 
-// Saca el elemento cima de la pila. Si la pila tiene elementos, se quita la
-// cima de la pila, y se devuelve ese valor
+// Saca el elemento cima de la pila. Si la pila tiene elementos, se quita la cima de la pila, y se devuelve ese valor
 // Pre: la pila fue creada y tiene al menos un elemento
-// Post: si la pila no estaba vacía, se devuelve el valor de la cima anterior
-// y la pila contiene un elemento menos
+// Post: si la pila no estaba vacía, se devuelve el valor de la cima anterior y la pila contiene un elemento menos
 void p_sacar(T_PILA *p, t_dato *x) {
     NODO *aux = p->cima;
     *x = p->cima->info;

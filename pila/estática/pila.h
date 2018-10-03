@@ -29,11 +29,9 @@ int p_llena(T_PILA *p);
 // Post: se agregó un nuevo elemento a la pila, el valor es la nueva cima
 void p_poner(T_PILA *p, t_dato x);
 
-// Saca el elemento cima de la pila. Si la pila tiene elementos, se quita la
-// cima de la pila, y se devuelve ese valor
+// Saca el elemento cima de la pila. Si la pila tiene elementos, se quita la cima de la pila, y se devuelve ese valor
 // Pre: la pila fue creada y tiene al menos un elemento
-// Post: si la pila no estaba vacía, se devuelve el valor de la cima anterior
-// y la pila contiene un elemento menos
-void p_sacar(T_PILA *p, t_dato x);
+// Post: si la pila no estaba vacía, se devuelve el valor de la cima anterior y la pila contiene un elemento menos
+void p_sacar(T_PILA *p, t_dato *x);
 
 #endif
