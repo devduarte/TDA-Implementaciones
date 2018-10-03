@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TDA.dir/main.c.obj"
+  "CMakeFiles/TDA.dir/main.c.o"
   "TDA.pdb"
-  "TDA.exe"
-  "TDA.exe.manifest"
-  "libTDA.dll.a"
+  "TDA"
 )
 
 # Per-language clean rules from dependency scanning.

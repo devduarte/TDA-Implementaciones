@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\TDA.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\TDA.dir/objects.a @CMakeFiles\TDA.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\TDA.dir/objects.a -Wl,--no-whole-archive  -o TDA.exe -Wl,--out-implib,libTDA.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TDA.dir\linklibs.rsp
+/usr/bin/cc -g   CMakeFiles/TDA.dir/main.c.o  -o TDA 

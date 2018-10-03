@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Diego/Desktop/Diego/facu/algo1/TDA-Implementaciones/TDA/main.c" "C:/Users/Diego/Desktop/Diego/facu/algo1/TDA-Implementaciones/TDA/cmake-build-debug/CMakeFiles/TDA.dir/main.c.obj"
+  "/home/tobias/projects/TDA-Implementaciones/main.c" "/home/tobias/projects/TDA-Implementaciones/cmake-build-debug/CMakeFiles/TDA.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

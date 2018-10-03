@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.12)
-project(Pila_estática C)
+project(TDA C)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD 11)
 
-add_executable(Pila main.c)
+include_directories(.)
+
+add_executable(TDA pila.h pila.c main.c)

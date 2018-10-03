@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/TDA.dir/main.c.o CMakeFiles/TDA.dir/cola.c.o  -o TDA 

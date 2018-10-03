@@ -1,32 +1,39 @@
+#ifndef __PILAS_H_
+
 #include <stdio.h>
-#include <stdlib.h>
+//#include "tipos.h" incluiria los 7 proximos renglones
 
-#define MIN_CIMA 0
-#define MAX_CIMA 10
+#define MAXPILA 10
 
-typedef void* t_dato;
+typedef int t_dato;
 
-struct pila;
-typedef struct pila t_pila;
+typedef struct t_pila {
+    int cima;
+    t_dato elem[MAXPILA];
+} T_PILA;
 
 // Crea una pila
 // Post: devuelve una nueva pila vacía
-void p_crear(t_pila *pila);
+void p_crear(T_PILA *p);
 
-// Devuelve verdadero o falso, según si la pila contiene o no algún elemento
+// Devuelve verdadero o falso, según si la pila tiene o no elementos apilados
 // Pre: la pila fue creada
-_Bool p_vacia(t_pila *pila);
+int p_vacia(T_PILA *p);
 
-// Devuelve verdadero o falso, según si la pila ha alcanzado su máxima capacidad de almacenamiento
+// Devuelve verdadero o falso, según si la pila está llena o no
 // Pre: la pila fue creada
-_Bool p_llena(t_pila *pila);
+int p_llena(T_PILA *p);
 
 // Agrega un nuevo elemento a la pila
 // Pre: la pila fue creada
-// Post: se agregó un nuevo elemento a la pila, x es la nueva cima
-void p_poner(t_pila *pila, t_dato x);
+// Post: se agregó un nuevo elemento a la pila, el valor es la nueva cima
+void p_poner(T_PILA *p, t_dato x);
 
-// Saca un elemento de la pila y lo devuelve
-// Pre: la pila fue creada
-// Post: se sacó el elemento de la pila
-void p_sacar(t_pila *pila, t_dato *x);
+// Saca el elemento cima de la pila. Si la pila tiene elementos, se quita la
+// cima de la pila, y se devuelve ese valor
+// Pre: la pila fue creada y tiene al menos un elemento
+// Post: si la pila no estaba vacía, se devuelve el valor de la cima anterior
+// y la pila contiene un elemento menos
+void p_sacar(T_PILA *p, t_dato x);
+
+#endif

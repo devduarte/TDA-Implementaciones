@@ -1,53 +1,61 @@
-#include "pila.c"
+#include <stdio.h>
+#include <stdlib.h>
 #include "pila.h"
 
-void esta_vacia(t_nodo *p) {
-    int vacia = p_vacia(p);
-    if (1 == vacia) {
-        printf("Pila vacía\n");
+int esta_vacia(T_PILA *p1) {
+    if (p_vacia(p1)) {
+        printf("La pila está vacia\n");
     } else {
-        printf("Pila no vacía\n");
+        printf("La pila no está vacia\n");
     }
 }
 
-//void esta_llena(t_nodo *p) {
-//    int llena = p_llena(p);
-//    if (1 == llena) {
-//        printf("Pila llena\n");
-//    } else {
-//        printf("Pila no llena\n");
-//    }
-//}
+int esta_llena(T_PILA *p1) {
+    if (p_llena(p1)) {
+        printf("La pila está llena\n");
+    } else {
+        printf("La pila no está llena\n");
+    }
+}
 
+int test() {
+    printf("Pruebas pila dinámica\n");
+    T_PILA p1;
+    t_dato w;
+    int max = 15;
+
+    p_crear(&p1);
+
+    esta_vacia(&p1);
+    esta_llena(&p1);
+
+    int i = 1;
+    while (i <= max && !p_llena(&p1)) {
+        /* se usa i como índice para colocar algunos elementos */
+        p_poner(&p1, i);
+        printf("Apilando elemento: %i\n ", i);
+        i++;
+    }
+
+    esta_vacia(&p1);
+
+    esta_llena(&p1);
+
+    while (!p_vacia(&p1)) {
+        p_sacar(&p1, &w);
+        printf("Desapilando elemento: %i\n ", w);
+        i--;
+    }
+
+    esta_vacia(&p1);
+
+    esta_llena(&p1);
+
+    return 0;
+}
 
 int main() {
-    t_dato elem;
-    t_nodo *pila;
+    test();
 
-    //    pila = crear_nodo(1);
-    p_crear(&pila);
-
-    esta_vacia(pila);
-//    esta_llena(&p);
-
-    int cont = 0;
-    printf("Agregando elementos a la pila\n");
-    while (cont < 10) {
-        elem = cont + 1;
-        p_poner(pila, elem);
-        cont++;
-    }
-
-    esta_vacia(pila);
-//    esta_llena(&p);
-
-//    printf("Sacando elementos de la pila\n");
-//    while (0 == p_vacia(&pila)) {
-//        p_sacar(pila, &elem);
-//    }
-
-    //    esta_llena(&p);
-//    esta_vacia(pila);
-
-    return (EXIT_SUCCESS);
-}
+    return 0;
+};

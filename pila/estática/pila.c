@@ -1,46 +1,42 @@
+#ifndef __PILAS_H_
 #include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
 #include "pila.h"
-
-struct pila {
-    int cima;
-    t_dato elem[MAX_CIMA];
-};
+//#include "tipos.h" incluiria los 7 proximos renglones
 
 // Crea una pila
 // Post: devuelve una nueva pila vacía
-void p_crear(t_pila *pila) {
-    printf("Se crea pila \n");
-    pila->cima = MIN_CIMA;
+void p_crear(T_PILA *p) {
+    p->cima = -1;
 }
 
 // Devuelve verdadero o falso, según si la pila tiene o no elementos apilados
 // Pre: la pila fue creada
-bool p_vacia(t_pila *pila) {
-    return pila->cima == MIN_CIMA;
+int p_vacia(T_PILA *p) {
+    return (p->cima == -1);
 }
 
-// Devuelve verdadero o falso, según si la pila ha alcanzado su máxima capacidad de almacenamiento
+// Devuelve verdadero o falso, según si la pila está llena o no
 // Pre: la pila fue creada
-bool p_llena(t_pila *pila) {
-    return pila->cima == MAX_CIMA;
+int p_llena(T_PILA *p) {
+    return (p->cima == MAXPILA);
 }
 
 // Agrega un nuevo elemento a la pila
 // Pre: la pila fue creada
-// Post: se agregó un nuevo elemento a la pila, x es la nueva cima
-void p_poner(t_pila *pila, t_dato x) {
-    printf("Se inserta valor %d en pila \n", x);
-    pila->cima = p->cima + 1;
-    pila->elem[p->cima] = x;
+// Post: se agregó un nuevo elemento a la pila, el valor es la nueva cima
+void p_poner(T_PILA *p, t_dato x) {
+    p->cima = p->cima + 1;
+    p->elem[p->cima] = x;
 }
 
-// Saca un elemento de la pila
-// Pre: la pila fue creada
-// Post: se sacó el elemento de la pila
-void p_sacar(t_pila *pila, t_dato *x) {
-    *x = pila->elem[p->cima];
-    pila->cima = p->cima - 1;
-    printf("Se saca valor %d de la pila \n", *x);
+// Saca el elemento cima de la pila. Si la pila tiene elementos, se quita la
+// cima de la pila, y se devuelve ese valor
+// Pre: la pila fue creada y tiene al menos un elemento
+// Post: si la pila no estaba vacía, se devuelve el valor de la cima anterior
+// y la pila contiene un elemento menos
+void p_sacar(T_PILA *p, t_dato x) {
+    x = p->elem[p->cima];
+    p->cima = p->cima - 1;
 }
+
+#endif

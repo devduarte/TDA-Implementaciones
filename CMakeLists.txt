@@ -7,4 +7,7 @@ include_directories(.)
 
 add_executable(TDA
         main.c
-        colaDinamica.h)
+        colaDinamica.h
+        ColaEstatica.h
+        listasimple.h
+        pilaEstatica.h)

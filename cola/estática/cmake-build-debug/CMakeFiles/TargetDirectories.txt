@@ -1,0 +1,3 @@
+/home/tobias/projects/TDA-Implementaciones/cola/estática/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tobias/projects/TDA-Implementaciones/cola/estática/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tobias/projects/TDA-Implementaciones/cola/estática/cmake-build-debug/CMakeFiles/TDA.dir

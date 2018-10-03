@@ -6,25 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Diego/Desktop/Diego/facu/algo1/TDA-Implementaciones/TDA/colaDinamica.h
+/home/tobias/projects/TDA-Implementaciones/colaDinamica.h
 stdio.h
 -
 stdlib.h
 -
 
-C:/Users/Diego/Desktop/Diego/facu/algo1/TDA-Implementaciones/TDA/main.c
+/home/tobias/projects/TDA-Implementaciones/main.c
 stdio.h
 -
 stdlib.h
 -
-pilaDinamica.h
-C:/Users/Diego/Desktop/Diego/facu/algo1/TDA-Implementaciones/TDA/pilaDinamica.h
+pilaEstatica.h
+/home/tobias/projects/TDA-Implementaciones/pilaEstatica.h
 colaDinamica.h
-C:/Users/Diego/Desktop/Diego/facu/algo1/TDA-Implementaciones/TDA/colaDinamica.h
+/home/tobias/projects/TDA-Implementaciones/colaDinamica.h
 
-C:/Users/Diego/Desktop/Diego/facu/algo1/TDA-Implementaciones/TDA/pilaDinamica.h
+/home/tobias/projects/TDA-Implementaciones/pilaEstatica.h
 stdio.h
--
-stdlib.h
 -
 
