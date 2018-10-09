@@ -5,10 +5,15 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
+
+
+typedef int tclave;
 
 typedef struct datolistap
 {
-	int clave, dato;
+	tclave clave;
+	int dato;
 }tdato;
 
 typedef struct nodo
@@ -36,7 +41,7 @@ int lvacia (tlista * l)
 
 void lppio (tlista * l)
 {
-	l->actual = l->cab;
+	 l->actual = l->cab;
 }
 
 void lsig(tlista * l)
@@ -45,7 +50,15 @@ void lsig(tlista * l)
 }
 
 int  lfin(tlista * l) {
-	return (l->actual == NULL);
+	return l->actual == l->cab;
+}
+
+int lllena(tlista * l)
+{
+   nodo* aux = (nodo*) malloc(sizeof(nodo));
+   int llena = aux == NULL;
+   free(aux);
+   return(llena);
 }
 
 void lmodificar (tlista *l, tdato aux)
@@ -58,8 +71,6 @@ void linfo(tlista * l, tdato *dato)
 	*dato = l->actual->info;
 }
 
-
-
  void crearNodo(nodo** nue, tdato x)
  {
    (*nue) = (nodo*) malloc(sizeof(nodo));
@@ -71,27 +82,32 @@ void linsertarorden (tlista * l, tdato x, char torden)
 {
     nodo *nue = NULL;
     nodo *aux = NULL ;
+    crearNodo(&nue, x);
     if (l->cab == NULL)
        l->cab = nue;
        else
-       if ( ((torden=='a') && (l->cab->info.clave>x.clave)) ||
-          ((torden=='d') && (l->cab->info.clave<x.clave)) )
+       if ( ((l->cab->info.clave>x.clave)&&(toupper(torden)=='A')) ||
+          ((l->cab->info.clave<x.clave))&&(toupper(torden)=='D'))
           {
-              nue->sig=l->cab;
-              l->cab=nue;
+            aux = l->cab;
+            nue->sig=l->cab;
+            while(aux->sig != l->cab)
+            {
+              aux = aux->sig;
+            }
+            aux->sig = nue;
+            l->cab = nue;
           }
           else
           {
           aux=l->cab;
-          while ((aux->sig !=NULL) && ( ((torden=='a') && (aux->sig->info.clave<x.clave))
-            || ((torden=='d') && (aux->sig->info.clave>x.clave)) ))
+          while  ((aux->sig !=l->cab)
+                 &&(((aux->sig->info.clave<x.clave)&&(toupper(torden)=='A'))
+                 || ((toupper(torden)=='D') && (aux->sig->info.clave>x.clave))))
             {
                 aux=aux->sig;
             }
-
             nue->sig=aux->sig;
-            aux->sig=nue;
-
          }
 }
 
@@ -101,73 +117,153 @@ void linsertarorden (tlista * l, tdato x, char torden)
 void lborrarppio (tlista *l)
 {
     nodo * aux = l->cab;
-    l->cab = l->cab->sig;
+    if(l->cab->sig = l->cab)
+    {
+      l->cab = NULL;
+    }
+    else
+    {
+      nodo *t = l->cab;
+      while(t->sig != l->cab) {
+        t = t->sig;
+      }
+      t->sig = l->cab->sig;
+    }
     free(aux);
 }
 
 void linsertarppio(tlista *l, tdato x)
 {
-   nodo **nue = NULL;
-   crearNodo(nue, x);
-  (*nue)->sig=l->cab;
-   l->cab= *nue;
+   nodo *nue = NULL;
+   crearNodo(&nue, x);
+  if (l->cab==NULL)
+  {
+    nue->sig = nue;
+    l->cab = nue;
+  }
+  else
+  {
+    nue->sig=l->cab;
+    nodo *t = l->cab;
+    while(t->sig != l->cab)
+    {
+      t = t->sig;
+    }
+    t->sig = nue;
+    l->cab = nue;
+  }
+
+
 }
 
 void lborrarfin(tlista *l)
 {
-    nodo *aux = NULL;
-    nodo*aux2 = NULL;
-    if (l->cab->sig==NULL)
+    nodo* t = NULL;
+    nodo* aux = NULL;
+    if (l->cab != l->cab->sig)
     {
-        aux=l->cab;
-        l->cab=NULL;
-        free(aux);
+        t=l->cab;
+        while(t->sig != l->cab)
+        {
+          aux = t;
+          t = t->sig;
+        }
+        aux->sig = l->cab;
     }
     else
     {
-        aux=l->cab;
-        while (aux->sig->sig !=NULL)
-            aux=aux->sig;
-        aux2=aux->sig;
-        aux->sig=NULL;
-        free(aux2);
+        l->cab = NULL;
+        t = l->cab;
     }
+    free(t);
 }
 void linsertarfin(tlista*l, tdato x)
 {
-   nodo **nue = NULL;
+   nodo *nue = NULL;
    nodo *aux = NULL;
-   crearNodo(nue, x);
+   crearNodo(&nue, x);
    if (l->cab==NULL)
-        l->cab = *nue;
+   {
+     l->cab = nue;
+     nue->sig = nue;
+   }
    else
     {
+      nue->sig = l->cab;
         aux=l->cab;
-        while (aux->sig !=NULL)
-              aux=aux->sig;
-        aux->sig= *nue;
-	}
+        while (aux->sig != l->cab)
+              aux = aux->sig;
+        aux->sig = nue;
+	  }
 }
 
 void lborraractual(tlista *l)
 {
-   nodo *aux=NULL;
-   nodo *aux2 = NULL;
-
-   aux2=l->actual;
+   nodo *t = NULL;
+   nodo * aux= NULL;
+   t=l->actual;
    if (l->actual==l->cab)
     {
+      if(l->cab->sig = l->cab)
+      {
+        l->cab = NULL;
+        l->actual = NULL;
+      }
+      else
+      {
+        aux = l->cab;
+        while(aux->sig != l->cab)
+        {
+          aux = aux->sig;
+        }
+        aux->sig = l->cab->sig;
+        l->cab = l->cab->sig;
+        l->actual = l->actual->sig;
+      }
        l->cab=l->cab->sig;
     }
    else
 	{
         aux=l->cab;
-        while (aux->sig!=l->actual){
-               aux=aux->sig;}
+        while (aux->sig!=l->actual)
+        {
+               aux=aux->sig;
+        }
         aux->sig=l->actual->sig;
+        l->actual=l->actual->sig;
 	}
-	free(aux2);
-	l->actual=l->actual->sig;
+	free(t);
 }
+
+ void lbuscar(tlista *l, tclave clave, int* i) {
+   *i = 0;
+   if((l->cab != NULL) && (l->cab->info.clave == clave)) {
+     l->actual = l->cab;
+     *i = 1;
+   } else {
+     if((l->cab->sig != l->cab) && (l->cab->info.clave == clave)) {
+       l->actual = l->cab->sig;
+       *i = 1;
+     }
+   }
+   if((*i == 0) && (l->cab->sig->sig != l->cab)) {
+     char c;
+     if(l->cab->info.clave < l->cab->sig->info.clave) {
+       c = 'A';
+     } else {
+       c = 'D';
+     }
+
+     nodo *aux = l->cab->sig->sig;
+     while((aux != l->cab) &&
+           (((c == 'A') && (aux->info.clave < clave)) || ((c == 'D') && (aux->info.clave > clave)))) {
+       aux = aux->sig;
+     }
+     if((aux != l->cab) && (aux->info.clave == clave)) {
+       l->actual = aux;
+       *i = 1;
+     }
+   }
+ }
 
 #endif
